@@ -1,0 +1,30 @@
+[root@Joannaok Raetest]# git push origin main
+Counting objects: 7, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 419 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: To git@github.com:eseeregie/rae-test.git
+   874f59a..789a61b  main -> main
+[root@Joannaok Raetest]# ping 192.168.1.99
+PING 192.168.1.99 (192.168.1.99) 56(84) bytes of data.
+64 bytes from 192.168.1.99: icmp_seq=1 ttl=64 time=0.375 ms
+64 bytes from 192.168.1.99: icmp_seq=2 ttl=64 time=0.379 ms
+64 bytes from 192.168.1.99: icmp_seq=3 ttl=64 time=0.463 ms
+64 bytes from 192.168.1.99: icmp_seq=4 ttl=64 time=0.322 ms
+64 bytes from 192.168.1.99: icmp_seq=5 ttl=64 time=0.445 ms
+^C
+--- 192.168.1.99 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 3999ms
+rtt min/avg/max/mdev = 0.322/0.396/0.463/0.057 ms
+[root@Joannaok Raetest]# ping 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.139 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.067 ms
+64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.089 ms
+64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.099 ms
+64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.088 ms
+^C
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4010ms
+rtt min/avg/max/mdev = 0.067/0.096/0.139/0.025 ms
